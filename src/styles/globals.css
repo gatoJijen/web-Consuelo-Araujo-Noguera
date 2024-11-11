@@ -1,0 +1,26 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.bg-optional {
+  background-color: #274EC3;
+}
+
+.bg-optional2 {
+  background-color: #353A41;
+}
+
+.bg-optional3 {
+  background-color: #3FA2B9;
+}
+
+.listNav>.li:hover>ul {
+  display: block;
+  opacity: 100%;
+}
+.listNav>.li:hover>p{
+  opacity: 100%;
+} 
+*{
+  transition: all 250ms ease-in-out;
+}
